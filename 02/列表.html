@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="react.js"></script>
+    <script src="react-dom.js"></script>
+    <script src="babel.mini.js"></script>
+</head>
+
+<body>
+    <div id="app">
+
+    </div>
+</body>
+<script type="text/babel">
+function NumberList(props){
+    const numbers = props.numbers
+    const listItems = numbers.map((number) =>
+        <li key={number.toString()}>{number}</li> //key只是在兄弟节点之间必须唯一，不需要全局唯一，一般在map（）方法中的元素需要设置key
+    );
+    return (
+        <ul>{listItems}</ul>
+    )
+}
+    const numbers = [1, 2, 3, 4, 5];
+    
+    ReactDOM.render(
+        <NumberList numbers={numbers} />,
+        document.getElementById('app')
+    )
+</script>
+
+</html>

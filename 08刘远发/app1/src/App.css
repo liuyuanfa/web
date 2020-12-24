@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list{
+    width: 100%;
+    min-height: 1000px;
+}
+.header{
+    width: 100%;
+    background-color: #323232;
+    height: 48px;
+    line-height: 48px;
+    color: #fff
+}
+.header_title{
+    padding: 0 32px;
+    color: #fff;
+    text-decoration: none;
+}
+.header_buycar{
+    padding: 0 32px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header_buycar_block{
+    float: right;
+}
+.buy_car{
+    margin: 32px;
+    background: #fff;
+    border: 1px solid #dddee1;
+    border-radius: 10px
+}
+.buy_car_title{
+    padding: 16px 32px;
+    border-bottom: 1px solid #dddee1;
+    border-radius: 10px 10px 0 0;
+    background: #f8f8f9
+}
+.cart_empty{
+    text-align: center;
+    padding: 32px;
+}
+.product_id{
+    margin: 32px;
+    padding: 32px;
+    background: #fff;
+    border: 1px solid #dddee1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.product_image{
+    width: 50%;
+    height: 550px;
+    float: left;
+    text-align: center;
+}
+.product_image img{
+    height: 100%;
+}
+.product_info{
+    width: 50%;
+    padding: 150px 0 250px;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+.product_cost{
+    color: #f2352e;
+    margin: 8px 0;
+}
+.product_add_cart{
+    display: inline-block;
+    padding: 8px 64px;
+    margin: 8px 0;
+    background: #2d8cf0;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.num{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background: #ff5500;
+    color: #fff;
+    font-size: 12px;
+}

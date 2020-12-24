@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="react.js"></script>
+    <script src="react-dom.js"></script>
+    <script src="babel.mini.js"></script>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+</body>
+<script type="text/babel">
+function Example() {
+    return (
+      <>
+        Some text.
+        <h2>A heading</h2>
+        More text.
+        <h2>Another heading</h2>
+        Even more text.
+      </>
+     );
+  }
+  ReactDOM.render(
+      <Example />, 
+      document.getElementById('root')
+      );
+</script>
+</html>

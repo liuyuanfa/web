@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\前端"
+		},
+		{
+			"path": "F:\\Tencent Files\\Tencent Files\\kugou (1)\\kugou"
+		},
+		{
+			"path": "F:\\Tencent Files\\Tencent Files\\kugou (2)\\kugou"
+		},
+		{
+			"path": "..\\..\\VUE"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\分享"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "React"
+	}
+}
