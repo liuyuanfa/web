@@ -1,0 +1,66 @@
+.cart_title{
+    padding: 8px 32px;
+    border-bottom: 1px solid #dddee1;
+    background: #eee;
+    overflow: hidden;
+}
+.cart_title div{
+    float: left;
+    font-size: 14px;
+}
+.cart_info{
+    width: 60%;
+    text-align: left;
+}
+.cart_price,.cart_count,.cart_cost,.cart_delete{
+    width: 10%;
+    text-align: center;
+}
+.cart{
+    padding: 0 32px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px dashed #e9eaec;
+    overflow: hidden
+}
+.cart div{
+    float: left;
+    
+}
+.cart_control_delete{
+    cursor: pointer;
+    color: #2d8cf0;
+}
+.cart_control{
+    display: inline-block;
+    margin: 0 4px;
+    width: 24px;
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    background: #f8f8f9;
+    border-radius: 50%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    cursor: pointer;
+}
+.cart_footer_desc{
+    display: inline-block;
+    padding: 0 16px;
+}
+.cart_footer_font{
+    color: #f2352e;
+    font-size: 20px;
+}
+.cart_control_order{
+    display: inline-block;
+    padding: 8px 32px;
+    border-radius: 6px;
+    background: #2d8cf0;
+    color: #fff;
+    cursor: pointer;
+}
+.cart_foot{
+    padding: 32px;
+    text-align: right;
+}
